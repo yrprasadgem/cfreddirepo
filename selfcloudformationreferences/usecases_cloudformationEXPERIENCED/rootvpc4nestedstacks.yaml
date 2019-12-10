@@ -1,0 +1,184 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    ee320618-757f-4b29-b8e1-6ba64bf40078:
+      size:
+        width: 690
+        height: 410
+      position:
+        x: 110
+        'y': 30
+      z: 0
+      embeds:
+        - 2c77e30e-61d0-48b0-b337-21db1e13f887
+        - e55d4a5d-b595-47b3-9306-5709ccade2c2
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+    5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5:
+      size:
+        width: 250
+        height: 190
+      position:
+        x: 190
+        'y': 100
+      z: 1
+      parent: ee320618-757f-4b29-b8e1-6ba64bf40078
+      embeds:
+        - 4c81200b-5e79-4b30-a37a-96f654b652dc
+      iscontainedinside:
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+    4c81200b-5e79-4b30-a37a-96f654b652dc:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 286
+        'y': 167
+      z: 2
+      parent: 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+      embeds: []
+      iscontainedinside:
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+        - 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+      dependson:
+        - 9b92c0a6-4767-4cc3-9ecf-278283f29616
+    e55d4a5d-b595-47b3-9306-5709ccade2c2:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 467
+        'y': 171
+      z: 1
+      parent: ee320618-757f-4b29-b8e1-6ba64bf40078
+      embeds: []
+      iscontainedinside:
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+    08d031cc-ba21-4128-9eae-8042527b4903:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 10
+        'y': 110
+      z: 0
+      embeds: []
+    0163b35d-0ccc-481d-9fff-71cc6586b146:
+      source:
+        id: ee320618-757f-4b29-b8e1-6ba64bf40078
+      target:
+        id: 08d031cc-ba21-4128-9eae-8042527b4903
+      z: 0
+    2c77e30e-61d0-48b0-b337-21db1e13f887:
+      size:
+        width: 140
+        height: 94
+      position:
+        x: 304
+        'y': 336
+      z: 1
+      parent: ee320618-757f-4b29-b8e1-6ba64bf40078
+      embeds:
+        - 9b92c0a6-4767-4cc3-9ecf-278283f29616
+      iscontainedinside:
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+        - ee320618-757f-4b29-b8e1-6ba64bf40078
+    9b92c0a6-4767-4cc3-9ecf-278283f29616:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 349
+        'y': 361
+      z: 2
+      parent: 2c77e30e-61d0-48b0-b337-21db1e13f887
+      embeds: []
+      iscontainedinside:
+        - 2c77e30e-61d0-48b0-b337-21db1e13f887
+        - 2c77e30e-61d0-48b0-b337-21db1e13f887
+        - 2c77e30e-61d0-48b0-b337-21db1e13f887
+        - 2c77e30e-61d0-48b0-b337-21db1e13f887
+        - 2c77e30e-61d0-48b0-b337-21db1e13f887
+        - 2c77e30e-61d0-48b0-b337-21db1e13f887
+        - 2c77e30e-61d0-48b0-b337-21db1e13f887
+        - 2c77e30e-61d0-48b0-b337-21db1e13f887
+        - 2c77e30e-61d0-48b0-b337-21db1e13f887
+        - 2c77e30e-61d0-48b0-b337-21db1e13f887
+        - 2c77e30e-61d0-48b0-b337-21db1e13f887
+      dependson:
+        - 08d031cc-ba21-4128-9eae-8042527b4903
+    e7d98379-428f-4353-bbe5-a75848334dee:
+      source:
+        id: 2c77e30e-61d0-48b0-b337-21db1e13f887
+      target:
+        id: 5ec24ea2-9deb-4fd3-9131-b2a02eaf6bb5
+      z: 1
+Parameters:
+  KeyName:
+    Description: Key Pair name
+    Type: AWS::EC2::KeyPair::KeyName
+Resources:
+  rootVPC:
+    Type: 'AWS::EC2::VPC'
+    Properties:
+      CidrBlock: 10.0.0.0/16
+      EnableDnsSupport: 'true'
+      EnableDnsHostnames: 'true'
+      Tags:
+        - Key: Name
+          Value: rootVPC
+  PublicSubnet:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      VpcId: !Ref rootVPC
+      CidrBlock: 10.0.0.0/24

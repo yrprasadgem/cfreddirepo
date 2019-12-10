@@ -1,0 +1,35 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Description: EC2 instance with parameters
+Parameters:
+  AMI:
+    Description: AMI to Start virtual server or vm
+    Type: String
+    AllowedValues:
+    - ami-c9b572aa
+    - ami-48d38c2b
+  InstanceType: 
+    Description: Select instance type of virtual server 
+    Type: String
+    AllowedValues:
+    - t2.micro
+    - t2.small
+    - t2.medium
+  SubnetType:
+    Description: 'A subnet from default VPC.'
+    Type: AWS::EC2::Subnet::Id
+  # TODO add parameters
+  # AMI: String
+  # InstanceType: String
+  # Subnet: Subnet-ID (AWS resource type) 
+Resources:
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: !Ref AMI
+      InstanceType: !Ref InstanceType
+      SubnetId: !Ref SubnetType
+      Tags:
+      - Key: Name
+        Value: learn-cloudformation-2-parameters
+ 
